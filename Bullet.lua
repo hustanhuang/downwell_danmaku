@@ -19,6 +19,7 @@ function Bullet:update(dt)
         math.sqrt(math.pow(self.x - player.x, 2) +
                   math.pow(self.y - player.y, 2)) < player.r then
         self.hit = true
+        self.v = self.v * 8
         hit_counter = hit_counter + 1
     end
 end
