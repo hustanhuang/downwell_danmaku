@@ -22,6 +22,8 @@ function GameObject:update(dt)
     local impulse = 50
     if love.keyboard.isDown('w') then
         self.vy = self.vy - impulse
+    elseif love.keyboard.isDown('s') then
+        self.vy = self.vy + impulse
     end
 
     if love.keyboard.isDown('a') then
