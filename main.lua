@@ -137,4 +137,14 @@ function love.keypressed(key, scancode, isrepeat)
             timer:tween(0.3, player, {r = player.original_r}, 'linear', nil)
         end)
     end
+
+    if key == 'p' then
+        bgm:setPitch(0.25)
+    end
+end
+
+function love.keyreleased(key)
+    if key == 'p' then
+        bgm:setPitch(1)
+    end
 end
