@@ -2,6 +2,8 @@
 
 a really f\*\*king simple [love2d](https://love2d.org) danmaku game with [Downwell](http://store.steampowered.com/app/360740) art style
 
+![screenshot](screenshot.png)
+
 ## How To Play
 
 Clone this repository.
@@ -18,6 +20,14 @@ Run LÖVE from this repository.
 cd downwell_danmaku
 love .
 ```
+
+## How To Play (REAL)
+
+`W` `A` `S` `D` to move
+
+`J` to shrink for a short time
+
+`P` to enter the **AWESOME** bullet time
 
 ## Disclaimer
 largely based on [adonaac](https://github.com/adonaac)'s blog article
